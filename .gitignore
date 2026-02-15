@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/preprocessed_data.csv
+data/vector_index.faiss
