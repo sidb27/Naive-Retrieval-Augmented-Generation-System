@@ -13,7 +13,7 @@ genai.configure(api_key=os.getenv("API_KEY"))
 # File paths
 data_file_path = "data/data_scientist_salaries.csv"
 preprocessed_file_path = "data/preprocessed_data.csv"
-faiss_index_path = "data/vector_index.faiss"  # FIXED (was wrongly pointing to CSV)
+faiss_index_path = "data/vector_index.faiss" 
 
 # Ensuring the directory for FAISS index file exists
 faiss_index_dir = os.path.dirname(faiss_index_path)
